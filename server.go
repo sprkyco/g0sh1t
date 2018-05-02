@@ -34,7 +34,7 @@ func main() {
 		if len(cmd) < 1 {
 			fmt.Fprintf(w, "Hello world, send me your commands!")
 		} else {
-			output := runner.Run(cmd)
+			output := Run(cmd)
 			fmt.Fprintf(w, "Results: %s", output)
 		}
 
