@@ -8,8 +8,6 @@ import (
 	"net/url"
 	"os/exec"
 	"strings"
-
-	runner "github.com/sprkyco/g0sh1t/runner"
 )
 
 func Run(cmd string) string {
