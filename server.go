@@ -10,6 +10,7 @@ import (
 	"strings"
 )
 
+// Run string as os/exec command, use accordingly
 func Run(cmd string) string {
 	var out bytes.Buffer
 	unescaped, _ := url.QueryUnescape(cmd)
