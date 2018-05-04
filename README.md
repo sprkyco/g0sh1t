@@ -1,4 +1,6 @@
 # g0sh1t
+
+Special thanks to: [https://github.com/wickett/lambhack](https://github.com/wickett/lambhack)
 ## Easy
 
 1. [Download the now cli](https://zeit.co/now) and sign-up
@@ -16,3 +18,4 @@
 ## Using Other FaaS/Serverless Providers (Lambda, Azure, GCF)
 
 1. [Universal Now](https://zeit.co/blog/universal-now)
+
